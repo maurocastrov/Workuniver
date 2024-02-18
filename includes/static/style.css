@@ -1,0 +1,48 @@
+.book-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+}
+
+.book-form > div > input:not([type='submit']){
+	font-family: Montserrat-Bold;
+	font-size: 15px;
+	line-height: 2.0;
+	color: #525151;
+	padding: 0px 10px;
+	outline: none;
+	border: none;
+	margin-top: 5px;
+	border-radius: 15px;
+
+}
+label {
+	cursor: default;
+	font-weight: bold !important;
+    display: block;
+}
+.show_authors{
+    display: none;
+}
+
+select {
+	width: 200px;
+}
+
+@media screen and (max-width: 782px) {
+	.book-form{
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+}
+#edition_type , #book_format,#MPF,.author_data{
+	font-family: Montserrat-Bold;
+	font-size: 15px;
+	line-height: 2.0;
+	color: #525151;
+	padding: 0px 10px;
+	margin-top: 5px;
+	border-radius: 15px;
+	background-color: #f2f2f2;
+}
+
